@@ -7,17 +7,21 @@ Or vice versa, depending on your kink.
 
 Require Babe.
 
-   (ns your.namespace
-     (require [babe.ox :refer [log js-log])))
+```clojure
+(ns your.namespace
+  (require [babe.ox :refer [log js-log])))
+```
 
 Log some clojurescript data structures:
 
-    (let [a {:a "hello"}
-          b ["b" :world]
-          c #{:hello "world"}]
-      (log "A: %o  B: %o  C: %o" a b c)
-      (js-log "A: %o  B: %o  C: %o" a b c)
-      (log :raw "A: %o  B: %o  C: %o" a b c))
+```clojure
+  (let [a {:a "hello"}
+        b ["b" :world]
+        c #{:hello "world"}]
+    (log "A: %o  B: %o  C: %o" a b c)
+    (js-log "A: %o  B: %o  C: %o" a b c)
+    (log :raw "A: %o  B: %o  C: %o" a b c))
+```
 
 The output of the above would be:
 
