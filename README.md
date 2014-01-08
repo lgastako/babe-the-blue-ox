@@ -25,7 +25,7 @@ Log some clojurescript data structures:
 
 The output of the above would be:
 
-    A: "{:a "hello"}"  B: "["b" :world]"  C: "#{"world" :hello}" main.js:10274
+    A: "{:a "hello"}"  B: "["b" :world]"  C: "#{"world" :hello}"
     A: >cljs.core.PersistentArrayMap  B: >cljs.core.PersistentVector  C: >cljs.core.PersistentHashSet
     A: >cljs.core.PersistentArrayMap  B: >cljs.core.PersistentVector  C: >cljs.core.PersistentHashSet
 
